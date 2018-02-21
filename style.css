@@ -1,0 +1,12 @@
+.cv{
+    display: grid;
+    grid-column: 1fr 1fr;
+}
+.Menubar{
+    width: 400px;
+    background-color: purple;
+}
+.content{
+    width: auto;
+    background-color: violet;
+}
