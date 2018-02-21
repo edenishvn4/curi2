@@ -11,21 +11,18 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
-    justify-items: center;
-    grid-gap: 10px;
 }
 .content{
     background: violet;
-    width: 900px;
-}
-.wrapping{
-    position: relative;
-    width: 900px;
 }
 #profpic{
     border-radius: 50%;
     width: 200px;
     height: 200px;
+}
+#edu{
+    height: 25px;
+    width: 25px;
 }
 a[href]{
     color: black;
