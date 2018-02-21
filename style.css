@@ -1,12 +1,50 @@
+body{
+    background: black
+}
 .cv{
     display: grid;
-    grid-column: 1fr 1fr;
+    grid-template-columns: 20% 80%;
+    margin: 30px auto;
 }
-.Menubar{
-    width: 400px;
-    background-color: purple;
+.MenuBar{
+    background: purple;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    grid-gap: 10px;
 }
 .content{
-    width: auto;
-    background-color: violet;
+    background: violet;
+    width: 900px;
+}
+.wrapping{
+    position: relative;
+    width: 900px;
+}
+#profpic{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+a[href]{
+    color: black;
+    font-style: normal;
+}
+a:hover{
+    color:white;
+}
+a{
+    font-family: 'Kavivanar', cursive;
+    font-size: 20px;
+    font-style: none;   
+}
+p{
+    font-family: 'Lato', sans-serif;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;;
+}
+ul{
+    list-style: none;
 }
