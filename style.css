@@ -1,28 +1,36 @@
 body{
-    background: black
+    background:silver;
 }
 .cv{
     display: grid;
     grid-template-columns: 20% 80%;
+    width: 90%;
+    grid-column-gap: 10px;
+	max-width: 1200px;
     margin: 30px auto;
+    
+    
 }
 .MenuBar{
-    background: purple;
     display: grid;
     grid-template-columns: 1fr;
-    align-items: center;
-}
-.content{
-    background: violet;
+    align-items: top;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 30px;
 }
 #profpic{
     border-radius: 50%;
     width: 200px;
     height: 200px;
 }
-#edu{
+#email,#web,#phone,#exp,#edu{
     height: 25px;
     width: 25px;
+}
+#role{
+    list-style: disc;
 }
 a[href]{
     color: black;
@@ -36,12 +44,16 @@ a{
     font-size: 20px;
     font-style: none;   
 }
-p{
+p,li{
     font-family: 'Lato', sans-serif;
 }
-h2{
+h2,dt{
     font-family: 'Open Sans', sans-serif;;
 }
 ul{
     list-style: none;
+}
+table,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
 }
