@@ -25,7 +25,7 @@ body{
     width: 200px;
     height: 200px;
 }
-#email,#web,#phone,#exp,#edu{
+#email,#web,#phone,#exp,#edu,#people{
     height: 25px;
     width: 25px;
 }
@@ -44,7 +44,7 @@ a{
     font-size: 20px;
     font-style: none;   
 }
-p,li{
+p,li,legend{
     font-family: 'Lato', sans-serif;
 }
 h2,dt{
@@ -56,4 +56,5 @@ ul{
 table,tr,td{
     border: 1px solid black;
     border-collapse: collapse;
+    justify-content: center;
 }
